@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-#plt.xlim([0, 30])
 
 class Model(object):
 
@@ -42,10 +41,10 @@ class Model(object):
         plt.title("Plotting Weight Convergence")
         plt.show()
 
-        # Plotiing Bias Correction
+        # Plotting Bias Correction
         plt.xlim([0,20])
         plt.plot(b)
-        plt.title("Plotiing Bias Correction")
+        plt.title("Plotting Bias Correction")
         plt.show()
 
 
